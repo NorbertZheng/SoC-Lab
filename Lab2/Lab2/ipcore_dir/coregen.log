@@ -1,0 +1,19 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'ROM_D'...
+ERROR:sim - Unable to find D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim -    Coregen is looking for
+   D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim - Unable to find D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim -    Coregen is looking for
+   D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim - IP initializer could not set IP core parameters on IP model
+ERROR:sim - Unable to find D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim -    Coregen is looking for
+   D:\FPGA_work\SWORD-ORG\OExp01-MUX\Code\ROM.coe
+ERROR:sim - Failed to initialize IP model.
+ERROR:sim - Failed executing Tcl generator.
+ERROR:sim - Failed to generate 'ROM_D'.  Failed executing Tcl generator.
+
+Wrote CGP file for project 'ROM_D'.

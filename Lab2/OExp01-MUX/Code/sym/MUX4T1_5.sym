@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MUX4T1_5">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-12-29T14:51:9</timestamp>
+    <attr value="MUX4T1_5" name="VeriModel" />
+    <pin polarity="Input" x="16" y="-144" name="s(1:0)" />
+    <pin polarity="Input" x="0" y="-80" name="I1(4:0)" />
+    <pin polarity="Input" x="0" y="-112" name="I0(4:0)" />
+    <pin polarity="Output" x="32" y="-64" name="o(4:0)" />
+    <pin polarity="Input" x="0" y="-48" name="I2(4:0)" />
+    <pin polarity="Input" x="0" y="-16" name="I3(4:0)" />
+    <graph>
+        <rect width="24" x="4" y="-136" height="136" />
+        <line x2="16" y1="-144" y2="-136" x1="16" />
+        <line x2="4" y1="-112" y2="-112" style="linewidth:W" x1="0" />
+        <line x2="4" y1="-80" y2="-80" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:6;fontname:Arial" attrname="PinName" x="4" y="-80" type="pin I1(4:0)" />
+        <attrtext style="fontsize:6;fontname:Arial" attrname="PinName" x="4" y="-112" type="pin I0(4:0)" />
+        <line x2="28" y1="-64" y2="-64" style="linewidth:W" x1="32" />
+        <attrtext style="alignment:RIGHT;fontsize:6;fontname:Arial" attrname="PinName" x="28" y="-64" type="pin o(4:0)" />
+        <line x2="4" y1="-48" y2="-48" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:6;fontname:Arial" attrname="PinName" x="8" y="-48" type="pin I2(4:0)" />
+        <attrtext style="fontsize:6;fontname:Arial" attrname="PinName" x="8" y="-16" type="pin I3(4:0)" />
+        <attrtext style="alignment:VLEFT;fontsize:6;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="24" y="-76" type="symbol" />
+        <attrtext style="fontsize:6;fontname:Arial" attrname="PinName" x="8" y="-132" type="pin s(1:0)" />
+    </graph>
+</symbol>

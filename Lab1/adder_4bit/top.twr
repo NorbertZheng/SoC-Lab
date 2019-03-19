@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\SoftWare\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3
+-s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf myucf.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc7k160t,fbg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+a<0>        |    6.235(R)|      SLOW  |   -1.462(R)|      FAST  |U2/Clk_50M        |   0.000|
+a<1>        |    6.161(R)|      SLOW  |   -1.337(R)|      FAST  |U2/Clk_50M        |   0.000|
+a<2>        |    5.799(R)|      SLOW  |   -1.381(R)|      FAST  |U2/Clk_50M        |   0.000|
+a<3>        |    5.619(R)|      SLOW  |   -1.410(R)|      FAST  |U2/Clk_50M        |   0.000|
+b<0>        |    5.955(R)|      SLOW  |   -1.341(R)|      FAST  |U2/Clk_50M        |   0.000|
+b<1>        |    6.109(R)|      SLOW  |   -1.475(R)|      FAST  |U2/Clk_50M        |   0.000|
+b<2>        |    5.727(R)|      SLOW  |   -1.453(R)|      FAST  |U2/Clk_50M        |   0.000|
+b<3>        |    5.931(R)|      SLOW  |   -1.570(R)|      FAST  |U2/Clk_50M        |   0.000|
+reset       |    6.499(R)|      SLOW  |   -2.274(R)|      FAST  |U2/Clk_50M        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led_clk     |         5.431(R)|      SLOW  |         2.392(R)|      FAST  |U2/Clk_50M        |   0.000|
+led_do      |         4.842(R)|      SLOW  |         2.183(R)|      FAST  |U2/Clk_50M        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.432|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clk            |led_clk        |    5.211|
+reset          |led_clr        |   10.260|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 12 20:12:21 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 497 MB
+
+
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\SoftWare\FPGA-Lab\adder_4bit\top.ncd
+OUTFILE=D:\SoftWare\FPGA-Lab\adder_4bit\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=D:\SoftWare\FPGA-Lab\adder_4bit
+LICENSE=WebPack
+USER_INFO=__0_0_0

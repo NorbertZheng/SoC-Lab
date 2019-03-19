@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LED">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-11-6T17:51:31</timestamp>
+    <attr value="LED" name="VeriModel" />
+    <pin polarity="Input" x="32" y="-96" name="EN" />
+    <pin polarity="Input" x="32" y="-32" name="LED_in(7:0)" />
+    <pin polarity="Output" x="384" y="-80" name="LED_out(7:0)" />
+    <graph>
+        <rect style="fillcolor:rgb(149,160,255);fillstyle:Solid" width="288" x="64" y="-128" height="128" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin EN" />
+        <line x2="32" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin LED_in(7:0)" />
+        <line x2="32" y1="-32" y2="-32" style="linewidth:W" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-80" type="pin LED_out(7:0)" />
+        <line x2="384" y1="-80" y2="-80" style="linewidth:W" x1="352" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="284" y="0" type="symbol" />
+    </graph>
+</symbol>

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\SoftWare\FPGA-Lab\adder_4bit\impact.xsl
+OUTFILE=D:\SoftWare\FPGA-Lab\adder_4bit\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=D:\SoftWare\FPGA-Lab\adder_4bit
+LICENSE=iMPACT
+USER_INFO=iMPACT

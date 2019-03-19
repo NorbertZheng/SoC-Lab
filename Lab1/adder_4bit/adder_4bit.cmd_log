@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/SoftWare/FPGA-Lab/adder_4bit/adder_4bit.xst" -ofn "D:/SoftWare/FPGA-Lab/adder_4bit/adder_4bit.syr" 
+xst -intstyle ise -ifn "D:/SoftWare/FPGA-Lab/adder_4bit/adder_4bit.xst" -ofn "D:/SoftWare/FPGA-Lab/adder_4bit/adder_4bit.syr" 
