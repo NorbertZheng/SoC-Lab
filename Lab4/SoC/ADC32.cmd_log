@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/Lab3/Lab3/SoC/ADC32.xst" -ofn "D:/Lab3/Lab3/SoC/ADC32.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd source_code/externel_device -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2L ADC32.ngc ADC32.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ADC32_map.ncd ADC32.ngd ADC32.pcf 

@@ -1,0 +1,13 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'ADC32'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o ADC32_map.ncd ADC32.ngd ADC32.pcf 
+Target Device  : xc7k160t
+Target Package : ffg676
+Target Speed   : -2l
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Fri Mar 22 19:07:06 2019
